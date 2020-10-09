@@ -8,4 +8,4 @@ function removeFromPlaylist(obj,artist){
   return obj;
 }
 removeFromPlaylist(playlist,"Opeth");
-console.log(playlist.keys())
+console.log(playlist.keys());
