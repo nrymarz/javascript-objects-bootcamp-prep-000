@@ -7,5 +7,3 @@ function removeFromPlaylist(obj,artist){
   delete obj[artist];
   return obj;
 }
-removeFromPlaylist(playlist,"Opeth");
-console.log(Object.keys(playlist));
